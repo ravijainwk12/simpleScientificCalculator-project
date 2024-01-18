@@ -1,5 +1,3 @@
-// script.js
-
 let display = document.getElementById('display');
 
 function appendCharacter(character) {
