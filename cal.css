@@ -1,0 +1,56 @@
+/* style.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.calculator-container {
+    width: 100px; /* Set the desired width of the container */
+  
+   
+}
+
+.calculator {
+    text-align: center;
+    border: 2px solid #1a0f0f;
+    border-radius: 10px;
+    padding: 26px;
+    background-color: #e9fdfb;
+}
+
+#display {
+    width: 91%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.buttons {
+  
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns based on your button layout */
+    gap: 10px;
+}
+
+button {
+    
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #b0fbb3; /* Green */
+    color: rgb(250, 113, 113);
+    border: 1px solid #4CAF50;
+    transition: background-color 0.3s;
+    
+}
+
+button:active :hover{
+    background-color: #fb9d06;
+}
+
+
